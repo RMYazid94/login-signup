@@ -1,0 +1,157 @@
+/*  css for the 2 pages  */
+body{
+width: 1536px;
+height: 1042px;
+display: flex;
+justify-content: space-between;
+margin: 0;
+}
+
+/* CSS for the images */
+.imgsize{
+    width: 781.5px;
+    height: 1042px;
+    border-bottom-left-radius: 45px ;
+    border-top-left-radius: 45px;  
+}
+
+/* css for the login and sign up */
+.login{
+position: relative;
+width: 404px;
+height: 583px;
+top: 230px;
+left: 175px ;
+}
+
+.login .titleP{
+width: 252px;
+height:48px;
+font-family: "Poppins", sans-serif;
+font-size: 32px;
+line-height: 48px;
+font-weight: 500;
+line-height: normal;
+padding: 0;
+}
+
+.login .firstP {
+width: 372px;
+height:26.55px;
+padding: 0;
+flex-shrink: 0;
+color: #000;
+font-family: "Poppins", sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.firstinput{
+width: 404px;
+height: 58.63188px;
+margin-top: 59px;
+}
+
+.firstinput .secondp{
+width: 100px;
+height: 21px;
+font-family: "Poppins", sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.firstinput input{
+    width: 394px;
+    padding: 10px 0px 10px 10px;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    
+}
+
+.secondinput{
+    width: 404px;
+    height: 58.63188px;
+    margin-top: 19.91px;
+    
+    }
+
+.secondinput .thirdp{
+        width: 100px;
+        height: 21px;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+
+.secondinput a{
+margin-bottom: 42.04px ;
+margin-left:287px ;
+margin-right:  4px;
+width: 83px;
+height: 16.594px;
+color: var(--action-sec, #0C2A92);
+font-family: "Poppins", sans-serif;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.secondinput input{
+    width: 394px;
+    padding: 10px 0px 10px 10px;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;  
+}
+
+/* remember me */
+.Remeberme{
+margin-top: 19.91px;
+}
+.Remeberme label{
+    width: 104px;
+    height: 15.488px;
+    color: #000;
+font-family: Poppins;
+font-size: 9px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.Remeberme input{
+    width: 9px;
+    height: 9.956px;
+    border-radius: 2px;
+    border: 1px solid #000;
+}
+
+.login1{
+margin-top: 19.92PX;
+width: 404px;
+height: 32px;
+padding: 10px 0px 10px 10px;
+border-radius: 10px;
+border: 1px solid #3A5B22;
+background: #3A5B22;
+display:flex ;
+align-items: center;
+justify-content: center;
+}
+.login1 p{
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
